@@ -70,7 +70,7 @@ func main() {
 				fmt.Println("Can't make a move ", move, err)
 				continue
 			}
-			g.printBoard()
+			//g.printBoard()
 			if g.numberOfMoves > minimumMoves {
 				win := g.checkForWin(directions)
 				if win {
